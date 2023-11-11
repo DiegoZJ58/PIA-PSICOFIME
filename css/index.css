@@ -1,0 +1,154 @@
+/* Tu archivo de estilos CSS */
+
+body {
+    background-color: antiquewhite;
+}
+header h1 .text-primary,
+main h1.text-primary {
+    color: #186f3c !important; 
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px ;
+}
+
+.navbar a {
+    color: #ecf0f1 !important;
+    margin: 0 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #34495e;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #2c3e50;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-xl {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, p, a {
+    margin-bottom: 20px;
+}
+
+.text-center-align {
+    text-align: center;
+}
+
+.text-center-align a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn-secondary {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #156536;
+    color: #ffffff;
+}
+
+.dir {
+    text-decoration: none;
+    color: green;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 0;
+}
+#contenedor{
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#contenedor {
+    background-color: #28a745 !important; /* Cambia el color a verde */
+}
+
+  
+  .Caja {
+    margin-top: 20px;
+  }
+  
+  .box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #0bad4f;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #186f3c;
+  }
